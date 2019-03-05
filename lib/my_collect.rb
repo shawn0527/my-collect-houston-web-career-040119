@@ -7,7 +7,7 @@ def my_collect (array)
     end
   elsif array[i].include? " "
     while i < array.length
-      yield 
+      yield
       newArray.push(array[i].split(" ").first)
       i += 1
     end
