@@ -7,13 +7,13 @@ def my_collect (array)
     end
   elsif array[i].include? " "
     while i < array.length
-      yield array[i].split(" ").first
+      yield 
       newArray.push(array[i].split(" ").first)
       i += 1
     end
   else
     while i < array.length
-      yield array[i].upcase
+      yield 
       newArray << array[i].upcase
       i += 1
     end
