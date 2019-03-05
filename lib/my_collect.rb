@@ -13,7 +13,7 @@ def my_collect (array)
     end
   else
     while i < array.length
-      yield array[i].upcase
+      yield(array[i])
       newArray << array[i].upcase
       i += 1
     end
